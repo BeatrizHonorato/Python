@@ -5,7 +5,7 @@ cadastro = input("Deseja se cadastrar? S/s ou N/n: ")
 
 if cadastro == "S" or cadastro == "s":
     print("==============Cadastro====================")
-    Digitoconta = input("Cadatre a sua conta, terá que ter 6 digitos: ")
+    Digitoconta = input("Cadatre a sua conta, terá que ter 5 digitos: ")
     Digitosenha = input("Cadastre a senha, terá que ter 4 digitos: ")
 
     if len(Digitoconta) == 6 and len(Digitosenha) == 4:
